@@ -546,24 +546,24 @@ For example, you could make the following sequence of moves:
 
 Along with canMove and makeMove, we are using methods puzzleSolved and printBoard with meanings that should be obvious.<br><br>
  Here is some output from the program:
-<ol start="16" reversed>
-    <li><b>WHITE WHITE WHITE _____ BLACK BLACK BLACK</b></li>
-    <li><b>WHITE WHITE WHITE BLACK _____ BLACK BLACK</b></li>
-    <li><b>WHITE WHITE _____ BLACK WHITE BLACK BLACK</b></li>
-    <li><b>WHITE _____ WHITE BLACK WHITE BLACK BLACK</b></li>
-    <li><b> WHITE BLACK WHITE _____ WHITE BLACK BLACK</b></li>
-    <li><b>WHITE BLACK WHITE BLACK WHITE _____ BLACK</b></li>
-    <li><b>WHITE BLACK WHITE BLACK WHITE BLACK _____</b></li>
-    <li><b>WHITE BLACK WHITE BLACK _____ BLACK WHITE</b></li>
-    <li><b>WHITE BLACK _____ BLACK WHITE BLACK WHITE</b></li>
-    <li><b>_____ BLACK WHITE BLACK WHITE BLACK WHITE</b></li>
-    <li><b>BLACK _____ WHITE BLACK WHITE BLACK WHITE</b></li>
-    <li><b>BLACK BLACK WHITE _____ WHITE BLACK WHITE</b></li>
-    <li><b>BLACK BLACK WHITE BLACK WHITE _____ WHITE</b></li>
-    <li><b>BLACK BLACK WHITE BLACK _____ WHITE WHITE</b></li>
-    <li><b>BLACK BLACK _____ BLACK WHITE WHITE WHITE</b></li>
-    <li><b>BLACK BLACK BLACK _____ WHITE WHITE WHITE</b></li>
-</ol>
+<br><br>
+    <i><font color="#0000ff">16.</font></i> <b><font color="#000000"> WHITE WHITE WHITE _____ BLACK BLACK BLACK</font></b><br>
+    <i><font color="#0000ff">15.</font></i> <b><font color="#000000">WHITE WHITE WHITE BLACK _____ BLACK BLACK</font></b><br>
+    <i><font color="#0000ff">14.</font></i> <b><font color="#000000">WHITE WHITE _____ BLACK WHITE BLACK BLACK </font></b><br>
+    <i><font color="#0000ff">13.</font></i> <b><font color="#000000">WHITE _____ WHITE BLACK WHITE BLACK BLACK</font></b><br>
+    <i><font color="#0000ff">12.</font></i> <b><font color="#000000">WHITE BLACK WHITE ______ WHITE BLACK BLACK</font></b><br>
+    <i><font color="#0000ff">11.</font></i> <b><font color="#000000">WHITE BLACK WHITE BLACK WHITE _____ BLACK </font></b><br>
+    <i><font color="#0000ff">10.</font></i> <b><font color="#000000">WHITE BLACK WHITE BLACK WHITE BLACK _____</font></b><br>
+    <i><font color="#0000ff">9.</font></i> <b><font color="#000000">WHITE BLACK WHITE BLACK _____ BLACK WHITE</font></b><br>
+    <i><font color="#0000ff">8.</font></i> <b><font color="#000000">WHITE BLACK _____ BLACK WHITE BLACK WHITE</font></b><br>
+    <i><font color="#0000ff">7.</font></i> <b><font color="#000000">_____ BLACK WHITE BLACK WHITE BLACK WHITE</font></b><br>
+    <i><font color="#0000ff">6.</font></i> <b><font color="#000000">BLACK _____ WHITE BLACK WHITE BLACK WHITE</font></b><br>
+    <i><font color="#0000ff">5.</font></i> <b><font color="#000000">BLACK BLACK WHITE _____  WHITE BLACK WHITE</font></b><br>
+    <i><font color="#0000ff">4.</font></i> <b><font color="#000000">BLACK BLACK WHITE BLACK WHITE _____ WHITE</font></b><br>
+    <i><font color="#0000ff">3.</font></i> <b><font color="#000000">BLACK BLACK WHITE BLACK _____ WHITE WHITE</font></b><br>
+    <i><font color="#0000ff">2.<font></i> <b><font color="#000000"> BLACK BLACK _____ BLACK WHITE WHITE WHITE</font></b><br>
+    <i><font color="#0000ff">1.</font></i> <b><font color="#000000">BLACK BLACK BLACK _____ WHITE WHITE WHITE</font></b><br>
+    
 <br><br>
 Notice that the solution is given in reverse order: BLACK starts out on the left and WHITE on the right, as in the last line. I've added line numbers to the actual output in order to emphasize this point. Backtracking always produces its results (sequence of choices) in reverse order; it is up to you, the programmer, to reverse the results again to get them in the correct order.
 
